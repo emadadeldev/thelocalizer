@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="تعريبات - عماد عادل">
+<meta name="keywords" content="تعريبات, العاب, العاب بالعربي">
+<meta name="author" content="Emad Adel">
+
+<!-- Robots -->
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph (للسوشيال ميديا مثل فيسبوك) -->
+<meta property="og:title" content="المعرب">
+<meta property="og:description" content="تعريبات - عماد عادل">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yourwebsite.com">
+<meta property="og:image" content="https://yourwebsite.com/image.jpg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="المعرب">
+<meta name="twitter:description" content="تعريبات - عماد عادل">
+<meta name="twitter:image" content="https://yourwebsite.com/image.jpg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=YOUR_FONT&display=swap" rel="stylesheet">
+
+<title>تعريبات - عماد عادل</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+  color: red;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+      font-family: "Cairo", sans-serif;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px 30px;
+}
+
+.hero h1 {
+    font-size: clamp(24px, 5vw, 42px);
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #d40000;
+    font-size: clamp(14px, 3vw, 18px);
+    text-align: center;
+}
+
+/* GRID */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* CARD */
+.card {
+    background: transparent;
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    border: 2px #970000 solid;
+}
+
+.card:hover {
+    transform: translateY(-6px) scale(1.02);
+}
+
+/* IMAGE */
+.card-img {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+/* OVERLAY */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    opacity: 0;
+    transition: 0.3s;
+    padding: 25px;
+}
+
+.overlay h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.overlay p {
+    font-size: 13px;
+    color: #ffffff;
+}
+
+/* HOVER */
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 30px;
+    margin-top: auto;
+    color: #94a3b8;
+    font-size: 20px;
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+    .cards {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .hero {
+        padding: 40px 15px 20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <p>
+"التعريبات التي أُنجزت بصورة فردية، وتلك التي أُنجزت ضمن فرق عمل، بالإضافة إلى تلك التي تم إصلاحها."
+    </p>
+</div>
+
+<div class="cards">
+
+    <a class="card" href="https://emadadeldev.github.io/rtea/">
+        <div class="card-img">
+            <img src="https://w.wallhaven.cc/full/73/wallhaven-73wmvo.jpg">
+            <div class="overlay">
+                <h3>Red Dead Redemption 2</h3>
+                <p>
+                 تم العمل عليه مع فريق "Redemption Team"
+                  
+                </p>
+            </div>
+        </div>
+    </a>
+
+    <a class="card" href="https://discord.gg/fBsesxypDy">
+        <div class="card-img">
+            <img src="https://img.youtube.com/vi/sHgBNg83iyc/maxresdefault.jpg">
+            <div class="overlay">
+                <h3>Red Dead Redemption</h3>
+                <p>تم العمل عليه مع فريق "أفاق التعريب"</p>
+            </div>
+        </div>
+    </a>
+
+    <a class="card" href="https://discord.gg/fBsesxypDy">
+        <div class="card-img">
+            <img src="https://cdn.discordapp.com/attachments/1491644064288735362/1491644064695844976/image.png?ex=69ea3d8a&is=69e8ec0a&hm=a8528c0f2de2449f980461759efdfdaba6986ab2f1bd430ea59ab633d2c0f264&">
+            <div class="overlay">
+                <h3>Assassins Creed II</h3>
+                <p>إصلاح مشكلة تعريب ماجد العتيبي في AC 2. نسخة عماد عادل</p>
+            </div>
+        </div>
+    </a>
+
+</div>
+
+<div class="footer">
+    انظم لسيرفر المعرب على الديسكورد <a href="https://discord.gg/j4ctCTgd6S">THE LOCALIZER</a>
+</div>
+
+</body>
+</html>
